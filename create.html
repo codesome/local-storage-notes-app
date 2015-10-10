@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <script src="create.js"></script>
+    <title>Create</title>
+    
+    <style>
+    body 
+{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+#name
+{
+ width: 200px   
+}
+
+#tbody
+{
+ width: 600px;
+    height: 300px;
+}
+    </style>
+</head>
+
+<body>
+     <div  class="home"><a href="index.html" style="text-decoration:none;color:white"><h1 style="margin-left:5px">Online Notes.. </h1></a></div>
+    <form style="text-align:center">
+        <h2>Title:</h2> <br><input id="name" > <br>
+        <h2>Body:</h2> <textarea id="tbody"> </textarea>
+    <br>
+    <button type="button" onclick="nsubmit()" class="bt">Save</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+
+.com
+{
+ text-align: center;
+  border: 2px solid #CD853F;
+    width: 200px;
+    align-self: center;
+    margin-left: 42%;
+}
+
+.com:hover
+{
+ box-shadow: 0px 0px 5px #CD853F,
+        0px 0px 5px;
+}
+

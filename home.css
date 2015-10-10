@@ -1,0 +1,39 @@
+body 
+{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #F5DEB3;  
+    
+}
+
+.home
+{
+    text-align: right;
+    background-image: url(img/book.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    line-height: 25px;
+    color: white;
+    border: 1px solid #A0522D;
+    border-radius: 5px;
+}
+
+.home:hover
+{
+ box-shadow: 0px 0px 10px #CD853F,
+     0px 0px 10px;
+}
+
+.bt
+{
+ border-radius: 6px;   
+}
+
+.bt:hover
+{
+ box-shadow: 0px 0px 5px #CD853F,
+     0px 0px 10px;
+}
